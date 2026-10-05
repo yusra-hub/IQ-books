@@ -1,0 +1,485 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.enrolllogs{
+      height: 100px;
+    width: 300px;
+}
+.enroll-page {
+    width: 100%;
+    min-height: 100vh;
+    background:
+        radial-gradient(
+            circle at 15% 25%,
+            rgba(128, 255, 0, 0.12),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 85% 70%,
+            rgba(128, 255, 0, 0.10),
+            transparent 35%
+        ),
+        #000;
+
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px 30px;
+}
+
+
+
+.dot-background {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+        radial-gradient(circle, #b4ff32 2px, transparent 2.5px),
+        radial-gradient(circle, #444 2px, transparent 2.5px);
+
+    background-size: 117px 90px, 117px 90px;
+    background-position: 15px 10px, 75px 55px;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+
+
+.falling-items {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.fall-item {
+    position: absolute;
+    top: -60px;
+    animation: falling linear infinite;
+    opacity: 0.9;
+}
+
+@keyframes falling {
+    0% {
+        transform: translateY(-50px) rotate(0deg);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+
+.enroll-logo {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 0 20px;
+    font-size: 23px;
+    color: white;
+    font-weight: 300;
+}
+
+.enroll-logo span {
+    font-size: 30px;
+}
+
+.enroll-logo strong {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+
+.enroll-card {
+    width: 100%;
+    max-width: 375px;
+    background: #252525;
+    border-radius: 4px;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.4);
+}
+
+.enroll-card h3 {
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.intro {
+    font-size: 11px;
+    color: #aaa;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+.enroll-card h4 {
+    font-size: 16px;
+    color: #d5ffb0;
+    margin-bottom: 12px;
+}
+
+
+
+.benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.benefit {
+    background: #373737;
+    border-radius: 20px;
+    padding: 8px 10px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.benefit span {
+    background: #ff9d00;
+    color: #000;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.enroll-card hr {
+    border: none;
+    border-top: 1px solid #3d3d3d;
+    margin: 12px 0 17px;
+}
+.enroll-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.enroll-form label {
+    font-size: 15px;
+    color: #bbb;
+    margin-bottom: 8px;
+    margin-top: 2px;
+}
+
+.enroll-form label span {
+    color: red;
+}
+
+.enroll-form input {
+    width: 100%;
+    height: 37px;
+    padding: 0 12px;
+    background: #090909;
+    border: 1px solid #111;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 13px;
+}
+
+.enroll-form input:focus {
+    border-color: #b4ff45;
+    box-shadow: 0 0 8px rgba(180,255,69,0.2);
+}
+
+.enroll-form input::placeholder {
+    color: #777;
+}
+
+.enroll-form button {
+    width: 100%;
+    min-height: 37px;
+    border: none;
+    border-radius: 4px;
+    background: #aaff45;
+    color: #111;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 6px;
+    transition: 0.3s ease;
+}
+.enroll-form button:hover {
+    background: #c2ff78;
+    transform: translateY(-3px);
+    box-shadow: 0 0 18px rgba(170,255,69,0.5);
+}
+
+.privacy {
+    color: #888;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 7px;
+}
+
+.privacy a {
+    color: #ccc;
+    font-weight: bold;
+}
+
+/* BOTTOM TEXT */
+
+.bottom-text {
+    color: #aaa;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+/* FOOTER */
+
+.enroll-footer {
+    width: 100%;
+    text-align: center;             
+    position: relative;
+    z-index: 2;
+    margin-top: 27px;
+}
+
+.enroll-footer > p {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin: 17px 0;
+}
+
+.social-icons a {
+    width: 27px;
+    height: 27px;
+    border: 1px solid #aaff45;
+    border-radius: 50%;
+    color: #aaff45;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background: #aaff45;
+    color: black;
+    transform: translateY(-4px);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    font-size: 14px;
+    color: white;
+}
+
+.footer-links a {
+    color: #aaff45;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px !important;
+    color: #ddd !important;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 480px) {
+
+    .enroll-page {
+        padding: 15px 12px 25px;
+    }
+
+    .enroll-card {
+        max-width: 100%;
+        padding: 18px;
+    }
+
+    .enroll-card h3 {
+        font-size: 14px;
+    }
+
+    .benefit {
+        font-size: 9px;
+    }
+
+    .enroll-footer {
+        margin-top: 25px;
+    }
+}
+/* Logo SVG */
+.logo-icon {
+    width: 38px;
+    height: 38px;
+}
+
+/* Heading SVG */
+.heading-icon {
+    width: 23px;
+    height: 23px;
+    fill: #b4ff45;
+    stroke: #b4ff45;
+    stroke-width: 1.5;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Benefits SVG */
+.benefit > svg {
+    width: 15px;
+    height: 15px;
+    fill: none;
+    stroke: #b4ff45;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    flex-shrink: 0;
+}
+
+.benefit span svg {
+    width: 13px;
+    height: 13px;
+    fill: #ff9d00;
+    stroke: #ff9d00;
+}
+
+.benefit span svg path {
+    stroke: #222;
+}
+
+/* Button SVG */
+.enroll-form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.enroll-form button svg {
+    width: 17px;
+    height: 17px;
+    fill: none;
+    stroke: #111;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+.social-icons a svg {
+    width: 15px;
+    height: 15px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.social-icons a:first-child svg {
+    fill: currentColor;
+    stroke: none;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #000;
+    background-image: url(images/Header-Bg-4-e1689258975700.png)
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.loader-box {
+    width: 190px;
+    height: 145px;
+    background: #222;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.loader-box h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.spinner {
+    width: 30px;
+    height: 30px;
+
+    border: 2px solid transparent;
+    border-top-color: #b9a7ff;
+    border-right-color: #b9a7ff;
+
+    border-radius: 50%;
+
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#loader.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+

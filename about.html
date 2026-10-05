@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | IQ BOOKS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: black;">
+    <!--nav-->
+
+    <!--sec1-->
+    <section class="about_sec1">
+        <div class="navs">
+            <nav class="navbar navbar-expand">
+                <div class="container-fluid padd">
+                    <img src="images/iq-book-logo.webp" alt="" class="img_logo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"
+                                    style="color: var(--a--text);">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="work.html">How Scholarship Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://www.whatsapp.com/channel/0029VbBXSyjDZ4LcOxU7DS3Z" target="_blank"
+                        class="nav_btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                            height="25" width="25" style="position: relative; bottom: 2px;">
+                            <path
+                                d="M7.25361 18.4944L7.97834 18.917C9.18909 19.623 10.5651 20 12.001 20C16.4193 20 20.001 16.4183 20.001 12C20.001 7.58172 16.4193 4 12.001 4C7.5827 4 4.00098 7.58172 4.00098 12C4.00098 13.4363 4.37821 14.8128 5.08466 16.0238L5.50704 16.7478L4.85355 19.1494L7.25361 18.4944ZM2.00516 22L3.35712 17.0315C2.49494 15.5536 2.00098 13.8345 2.00098 12C2.00098 6.47715 6.47813 2 12.001 2C17.5238 2 22.001 6.47715 22.001 12C22.001 17.5228 17.5238 22 12.001 22C10.1671 22 8.44851 21.5060 6.97086 20.6047L2.00516 22ZM8.39232 7.30833C8.5262 7.29892 8.66053 7.29748 8.79459 7.30402C8.84875 7.30758 8.90265 7.31384 8.95659 7.32007C9.11585 7.33846 9.29098 7.43545 9.34986 7.56894C9.60818 8.24536 9.93760 8.92565 10.2182 9.60963C10.2801 9.76062 10.2428 9.95633 10.125 10.1457C10.0652 10.2428 9.97128 10.379 9.86248 10.5183C9.74939 10.663 9.50599 10.9291 9.50599 10.9291C9.50599 10.9291 9.40738 11.0473 9.44455 11.1944C9.45903 11.25 9.50521 11.331 9.54708 11.3991C9.57027 11.4368 9.5918 11.4705 9.60577 11.4938C9.86169 11.9211 10.2057 12.3543 10.6259 12.7616C10.7463 12.8783 10.8631 12.9974 10.9887 13.108C11.457 13.5209 11.9868 13.8583 12.559 14.1082L12.5601 14.1105C12.6086 14.1469 12.692 14.1668 12.8157 14.2193C12.8781 14.2457 12.9419 14.2685 13.0074 14.2858C13.0311 14.292 13.0554 14.2955 13.0798 14.2972C13.2415 14.3069 13.335 14.2032 13.3749 14.1555C14.0984 13.279 14.1606 13.2218 14.1696 13.2222V13.2238C14.2607 13.1236 14.4142 13.0888 14.5476 13.097C14.6085 13.1007 14.6691 13.1124 14.7245 13.1377C15.2563 13.3803 16.1258 13.7587 16.1258 13.7587L16.7073 14.0201C16.8047 14.0671 16.8936 14.1778 16.8979 14.2854C16.9005 14.3523 16.9077 14.4603 16.8838 14.6579C16.8525 14.9166 16.7738 15.2281 16.6956 15.3913C16.6006 15.5058 16.5694 15.6074 16.4866 15.6934C16.3743 15.81 16.2909 15.8808 16.1559 15.9814C16.0737 16.0426 16.0311 16.0714 16.0311 16.0714C15.8922 16.159 15.8139 16.2028 15.6084 16.2909C15.391 16.428 15.1066 16.5068 14.8153 16.5218C14.6296 16.5313 14.4444 16.5447 14.2589 16.5347C14.2507 16.5342 13.6907 16.4482 13.6907 16.4482C12.2688 16.0742 10.9538 15.3736 9.85034 14.402C9.62473 14.2034 9.4155 13.9885 9.20194 13.7759C8.31288 12.8908 7.63982 11.9360 7.23169 11.0336C7.03043 10.5884 6.90299 10.1116 6.90098 9.62098C6.89729 9.01405 7.09599 8.4232 7.46569 7.94186C7.53857 7.84697 7.60774 7.74855 7.72709 7.63586C7.85348 7.51651 7.93392 7.45244 8.02057 7.40811C8.13607 7.34902 8.26293 7.31742 8.39232 7.30833Z">
+                            </path>
+                        </svg> &nbsp;&nbsp;
+                        Chat with us
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <!--text and img-->
+        <div class="texts_about">
+            <p class="about_para1">ABOUT US</p>
+            <h1 class="about_head1">
+                Empowering Students <br> <span class="head_spn">Through Merit-Based</span> <br> Learning</h1>
+            <p class="about_para2">IQ Book is a gamified learning and competitive education platform in <br> Pakistan
+                designed to help students improve their academic performance <br> through quizzes, MCQs, and interactive
+                challenges.</p>
+        </div>
+        <!--text and img-->
+
+    </section>
+    <!--sec1-->
+    <!--sec2-->
+    <section class="about_sec2">
+        <div class="main_about">
+            <div class="left_streak">
+                <img src="images/Untitled-design-21.webp" alt="">
+            </div>
+            <div class="right_info">
+                <h2 class="eventshead">Who We Are</h2>
+                <p class="eventpara">We are an education-focused platform built for students who want to:</p>
+                <br>
+                <p class="eventpara"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        heigth="22" width="22" class="svgs_colors2" style="position: relative; bottom:3px;">
+                        <path
+                            d="M4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM17.4571 9.45711L16.0429 8.04289L11 13.0858L8.20711 10.2929L6.79289 11.7071L11 15.9142L17.4571 9.45711Z">
+                        </path>
+                    </svg> &nbsp; &nbsp;Improve their MCQ solving skills</p>
+                <p class="eventpara"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        heigth="22" width="22" class="svgs_colors2" style="position: relative; bottom:3px;">
+                        <path
+                            d="M4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM17.4571 9.45711L16.0429 8.04289L11 13.0858L8.20711 10.2929L6.79289 11.7071L11 15.9142L17.4571 9.45711Z">
+                        </path>
+                    </svg> &nbsp; &nbsp;Prepare for competitive exams like MDCAT & ECAT</p>
+                <p class="eventpara"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        heigth="22" width="22" class="svgs_colors2" style="position: relative; bottom:3px;">
+                        <path
+                            d="M4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM17.4571 9.45711L16.0429 8.04289L11 13.0858L8.20711 10.2929L6.79289 11.7071L11 15.9142L17.4571 9.45711Z">
+                        </path>
+                    </svg> &nbsp; &nbsp;Build consistency and discipline in learning</p>
+                <p class="eventpara"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        heigth="22" width="22" class="svgs_colors2" style="position: relative; bottom:3px;">
+                        <path
+                            d="M4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM17.4571 9.45711L16.0429 8.04289L11 13.0858L8.20711 10.2929L6.79289 11.7071L11 15.9142L17.4571 9.45711Z">
+                        </path>
+                    </svg> &nbsp; &nbsp;Compete in a fair, performance-based environment</p>
+                <br>
+                <div class="head_divs">
+                    <div class="head_cap">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="25"
+                            width="25">
+                            <path
+                                d="M12 2 0 9 12 16 22 10.1667V17.5H24V9L12 2ZM3.99902 13.4905V18.0001C5.82344 20.429 8.72812 22.0001 11.9998 22.0001 15.2714 22.0001 18.1761 20.429 20.0005 18.0001L20.0001 13.4913 12.0003 18.1579 3.99902 13.4905Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="svgs_para">
+                        <p>IQ Book is not just another study app it is a performance-driven learning ecosystem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--sec2-->
+
+    <!--sec3-->
+    <section class="about_sec3">
+        <div class="container">
+            <div class="sides_about">
+                <div class="left_mission">
+                    <div class="text_mission">
+                        <span class="working_spn2">Our Mission</span>
+                        <br><br>
+                        <p class="miss_para">
+                            Our mission is to transform traditional education in <br> Pakistan by introducing:</p>
+                        <p class="miss_para"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor" heigth="22" width="22" class="svgs_colors2"
+                                style="position: relative; bottom:3px;">
+                                <path
+                                    d="M4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM17.4571 9.45711L16.0429 8.04289L11 13.0858L8.20711 10.2929L6.79289 11.7071L11 15.9142L17.4571 9.45711Z">
+                                </path>
+                            </svg> &nbsp; &nbsp;Gamified learning experiences</p>
+                        <p class="miss_para"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor" heigth="22" width="22" class="svgs_colors2"
+                                style="position: relative; bottom:3px;">
+                                <path
+                                    d="M4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM17.4571 9.45711L16.0429 8.04289L11 13.0858L8.20711 10.2929L6.79289 11.7071L11 15.9142L17.4571 9.45711Z">
+                                </path>
+                            </svg> &nbsp; &nbsp;Competitive quiz-based challenges</p>
+                        <p class="miss_para"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor" heigth="22" width="22" class="svgs_colors2"
+                                style="position: relative; bottom:3px;">
+                                <path
+                                    d="M4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM17.4571 9.45711L16.0429 8.04289L11 13.0858L8.20711 10.2929L6.79289 11.7071L11 15.9142L17.4571 9.45711Z">
+                                </path>
+                            </svg> &nbsp; &nbsp;Performance tracking systems</p>
+                        <p class="miss_para"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor" heigth="22" width="22" class="svgs_colors2"
+                                style="position: relative; bottom:3px;">
+                                <path
+                                    d="M4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM17.4571 9.45711L16.0429 8.04289L11 13.0858L8.20711 10.2929L6.79289 11.7071L11 15.9142L17.4571 9.45711Z">
+                                </path>
+                            </svg> &nbsp; &nbsp;Merit-based scholarship opportunities</p>
+                        <br>
+                        <p class="miss_para">We believe that hardworking and consistent students <br>deserve recognition
+                            and opportunities based on their <br>performance, not luck.</p>
+                    </div>
+                </div>
+                <div class="right_offer">
+                    <span class="working_spn3">What We Offer</span>
+                    <br><br>
+                    <p class="offer_para">
+                        IQ Book provides a complete learning <br> environment including:</p>
+                        <div class="offer_boxes">
+                            <div class="offer_box1">
+                                <div class="background_offer">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10"
+                                id="Mobile-Phone--Streamline-Micro" height="27" width="27" class="svg_offer">
+                                <desc>
+                                    Mobile Phone Streamline Icon: https://streamlinehq.com
+                                </desc>
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    d="M7.5 0.5h-5a1 1 0 0 0 -1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1 -1v-7a1 1 0 0 0 -1 -1"
+                                    stroke-width="1"></path>
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    d="M4.5 7.5h1" stroke-width="1"></path>
+                                
+  </svg>
+                                </div>
+                                <p class="back_para">Daily MCQ <br> practice quizzes</p>
+                            </div>
+                            <div class="offer_box1">
+                                 <div class="background_offer">
+   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                id="Swords--Streamline-Outlined-Material" height="27" width="27" class="svg_offer">
+                                <desc>
+                                    Swords Streamline Icon: https://streamlinehq.com
+                                </desc>
+                                <path fill="currentColor"
+                                    d="m19.225 21.7999 -3.1 -3.1 -2.2 2.2 -1.075 -1.075c-0.28335 -0.28335 -0.425 -0.63335 -0.425 -1.05 0 -0.41665 0.14165 -0.76665 0.425 -1.05l4.975 -4.975c0.28335 -0.28335 0.63335 -0.425 1.05 -0.425 0.41665 0 0.76665 0.14165 1.05 0.425l1.075 1.075 -2.2 2.2 3.075 3.1c0.15 0.15 0.225 0.325 0.225 0.525s-0.075 0.375 -0.225 0.525l-1.6 1.625c-0.15 0.15 -0.325 0.225 -0.525 0.225s-0.375 -0.075 -0.525 -0.225Zm2.775 -15.9 -11.325 11.325 0.475 0.5c0.28335 0.28335 0.425 0.63335 0.425 1.05 0 0.41665 -0.14165 0.76665 -0.425 1.05l-1.075 1.075 -2.2 -2.2 -3.1 3.1c-0.15 0.15 -0.325 0.225 -0.525 0.225s-0.375 -0.075 -0.525 -0.225l-1.625 -1.625c-0.15 -0.15 -0.225 -0.325 -0.225 -0.525s0.075 -0.375 0.225 -0.525l3.1 -3.1 -2.2 -2.2 1.075 -1.075c0.283335 -0.28335 0.633335 -0.425 1.05 -0.425 0.41665 0 0.76665 0.14165 1.05 0.425l0.5 0.475L18 1.8999h4v4Zm-15.05 4.95 -4.95 -4.95v-4h4l4.95 4.95 -1.05 1.05 -4.525 -4.5H3.5v1.875l4.5 4.525 -1.05 1.05Zm2.625 5.3L20.5 5.2749v-1.875h-1.875l-10.925 10.875 1.875 1.875Z"
+                                    stroke-width="0.5"></path>
+                            </svg>
+                                </div>
+                                <p class="back_para">1v1 competitive <br>quiz battles</p>
+                            </div>
+                            <div class="offer_box1">
+                                 <div class="background_offer">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"  height="27" width="27" class="svg_offer">
+<path d="M2 13H8V21H2V13ZM16 8H22V21H16V8ZM9 3H15V21H9V3ZM4 15V19H6V15H4ZM11 5V19H13V5H11ZM18 10V19H20V10H18Z"></path>
+</svg>
+                                
+  </svg>
+                                </div>
+                                <p class="back_para">Leaderboard <br> ranking system</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="offer_boxes2">
+                             <div class="offer_box1">
+                                 <div class="background_offer">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14" id="Brain--Streamline-Core"
+                     height="27" width="27" class="svg_offer">
+                    <desc>
+                        Brain Streamline Icon: https://streamlinehq.com
+                    </desc>
+                    <g id="brain--medical-health-brain">
+                        <path id="Union" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.61959 1.43823c1.31451 0 2.38014 1.06563 2.38014 2.38014l-0.00006 6.47043c0 1.5044 -1.2196 2.724 -2.72405 2.724 -1.50446 0 -2.72406 -1.2196 -2.72406 -2.724 0 -0.0771 0.00321 -0.1534 0.00949 -0.2289C0.994116 9.45085 0.636014 8.25951 0.636014 7.26549c0 -1.35449 0.660156 -2.67144 1.616866 -3.18911 -0.00914 -0.08475 -0.01383 -0.17083 -0.01383 -0.25801 0 -1.31451 1.06563 -2.38014 2.38014 -2.38014Z"
+                            stroke-width="1"></path>
+                        <path id="Vector 605" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.51106 5.69409c-0.34948 -0.07968 -1.14142 -0.59904 -1.26091 -1.61157" stroke-width="1">
+                        </path>
+                        <path id="Vector 610" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.97003 8.36079c1.42751 -0.15933 1.9932 -1.66583 2.02998 -2.27861" stroke-width="1">
+                        </path>
+                        <path id="Vector 606" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.28949 8.63184c-0.35556 0.28074 -0.63905 0.91698 -0.7309 1.42666" stroke-width="1">
+                        </path>
+                        <path id="Union_2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M9.38017 1.43823c-1.31452 0 -2.38014 1.06563 -2.38014 2.38014l0.00006 6.47043c0 1.5044 1.2196 2.724 2.72405 2.724 1.50446 0 2.72406 -1.2196 2.72406 -2.724 0 -0.0771 -0.0032 -0.1534 -0.0095 -0.2289 0.5669 -0.60905 0.9246 -1.80039 0.9246 -2.79441 0 -1.35449 -0.6601 -2.67144 -1.6168 -3.18911 0.0091 -0.08475 0.0138 -0.17083 0.0138 -0.25801 0 -1.31451 -1.0656 -2.38014 -2.38013 -2.38014Z"
+                            stroke-width="1"></path>
+                        <path id="Vector 611" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M10.4887 5.69409c0.3495 -0.07968 1.1414 -0.59904 1.2609 -1.61157" stroke-width="1">
+                        </path>
+                        <path id="Vector 612" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M9.02972 8.36079c-1.4275 -0.15933 -1.9932 -1.66583 -2.02998 -2.27861" stroke-width="1">
+                        </path>
+                        <path id="Vector 613" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M11.7103 8.63184c0.3555 0.28074 0.639 0.91698 0.7309 1.42666" stroke-width="1"></path>
+                    </g>
+                </svg>
+                                </div>
+                                <p class="back_para">Skill-enhancing<br>power-ups</p>
+                             </div>
+                            <div class="offer_box1">
+                                 <div class="background_offer">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"   height="27" width="27" class="svg_offer" >
+                                <path
+                                    d="M4 11.3333L0 9L12 2L24 9V17.5H22V10.1667L20 11.3333V18.0113L19.7774 18.2864C17.9457 20.5499 15.1418 22 12 22C8.85817 22 6.05429 20.5499 4.22263 18.2864L4 18.0113V11.3333ZM6 12.5V17.2917C7.46721 18.954 9.61112 20 12 20C14.3889 20 16.5328 18.954 18 17.2917V12.5L12 16L6 12.5ZM3.96927 9L12 13.6846L20.0307 9L12 4.31541L3.96927 9Z">
+                                </path>
+                            </svg>
+                                </div>
+                                <p class="back_para">Scholarship<br> eligibility programs</p>
+                            </div>
+                        </div>
+                    <br>
+                        <p  class="offer_para">Our platform is designed to improve accuracy, <br> speed, and confidence in students.</p>
+                </div>
+            </div>
+    </section>
+    <!--sec3-->
+
+
+
+
+    <section class="why-section2">
+<div class="container">
+    <div class="why-container2">
+
+        <!-- LEFT SIDE -->
+        <div class="why-left2">
+
+            <h2>Why IQ Book?</h2>
+
+            <div class="heading-line2"></div>
+
+            <p class="why-intro2">
+                Because traditional learning is no longer enough.
+                IQ Book combines:
+            </p>
+
+
+            <!-- FEATURES -->
+            <div class="features2">
+
+                <!-- GAMIFICATION -->
+                <div class="feature2">
+
+                    <div class="icon-circle2">
+
+                        <svg viewBox="0 0 24 24"
+                             xmlns="http://www.w3.org/2000/svg">
+
+                            <path
+                                d="M6.5 8.5h11c2.2 0 4 1.8 4 4v2.5c0 1.7-1.3 3-3 3-1.1 0-2.1-.6-2.7-1.5H8.2C7.6 17.4 6.6 18 5.5 18c-1.7 0-3-1.3-3-3v-2.5c0-2.2 1.8-4 4-4Z"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.6"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"/>
+
+                            <path
+                                d="M7 11v3M5.5 12.5h3M16 12h.01M18.5 14h.01"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.6"
+                                stroke-linecap="round"/>
+
+                        </svg>
+
+                    </div>
+
+                    <span>Gamification</span>
+
+                </div>
+
+
+                <div class="plus2">+</div>
+
+
+                <!-- EDUCATION -->
+                <div class="feature2">
+
+                    <div class="icon-circle2">
+
+                        <svg viewBox="0 0 24 24"
+                             xmlns="http://www.w3.org/2000/svg">
+
+                            <rect
+                                x="6"
+                                y="3"
+                                width="12"
+                                height="18"
+                                rx="1.5"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.7"/>
+
+                            <path
+                                d="M9 6h6M9 18h6"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"/>
+
+                        </svg>
+
+                    </div>
+
+                    <span>Education</span>
+
+                </div>
+
+
+                <div class="plus2">+</div>
+
+
+                <!-- COMPETITION -->
+                <div class="feature2">
+
+                    <div class="icon-circle2">
+
+                        <svg viewBox="0 0 24 24"
+                             xmlns="http://www.w3.org/2000/svg">
+
+                            <path
+                                d="M8 4h8v3c0 3-1.8 5-4 5S8 10 8 7V4Z"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.6"
+                                stroke-linejoin="round"/>
+
+                            <path
+                                d="M8 6H5c0 3 1.2 5 4 5M16 6h3c0 3-1.2 5-4 5"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.6"
+                                stroke-linecap="round"/>
+
+                            <path
+                                d="M12 12v4M9 20h6M10 16h4"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.6"
+                                stroke-linecap="round"/>
+
+                        </svg>
+
+                    </div>
+
+                    <span>Competition</span>
+
+                </div>
+
+
+                <div class="plus2">+</div>
+
+
+                <!-- PERFORMANCE -->
+                <div class="feature2">
+
+                    <div class="icon-circle2">
+
+                        <svg viewBox="0 0 24 24"
+                             xmlns="http://www.w3.org/2000/svg">
+
+                            <path
+                                d="M5 19V10M10 19V6M15 19V12M20 19V3"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                                stroke-linecap="round"/>
+
+                            <path
+                                d="M3 19h19"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.6"
+                                stroke-linecap="round"/>
+
+                        </svg>
+
+                    </div>
+
+                    <span>
+                        Performance<br>
+                        tracking
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <p class="why-highlight2">
+                This makes learning more engaging and effective for
+                students.
+            </p>
+
+        </div>
+
+
+        <!-- CENTER IMAGE -->
+        <div class="why-image2">
+
+            <img
+                src="./images/982d7f93-9bf6-4476-8a20-103b264b9f9d - Copy.png"
+                alt="Student learning">
+
+        </div>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="journey2">
+
+            <h2>Join Our Journey</h2>
+
+            <div class="heading-line2"></div>
+
+            <p class="journey-text2">
+                If you are a student who wants to improve skills,
+                compete fairly, and grow through merit-based
+                opportunities, IQ Book is built for you.
+            </p>
+
+
+            <ul class="journey-list2">
+
+                <li>
+
+                    <svg viewBox="0 0 24 24"
+                         xmlns="http://www.w3.org/2000/svg">
+
+                        <circle
+                            cx="12"
+                            cy="12"
+                            r="9"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.7"/>
+
+                        <path
+                            d="M10 8l4 4-4 4"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.7"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"/>
+
+                    </svg>
+
+                    <span>Start practicing</span>
+
+                </li>
+
+
+                <li>
+
+                    <svg viewBox="0 0 24 24"
+                         xmlns="http://www.w3.org/2000/svg">
+
+                        <circle
+                            cx="12"
+                            cy="12"
+                            r="9"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.7"/>
+
+                        <path
+                            d="M10 8l4 4-4 4"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.7"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"/>
+
+                    </svg>
+
+                    <span>Improve your skills</span>
+
+                </li>
+
+
+                <li>
+
+                    <svg viewBox="0 0 24 24"
+                         xmlns="http://www.w3.org/2000/svg">
+
+                        <circle
+                            cx="12"
+                            cy="12"
+                            r="9"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.7"/>
+
+                        <path
+                            d="M10 8l4 4-4 4"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.7"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"/>
+
+                    </svg>
+
+                    <span>Compete with top students</span>
+
+                </li>
+
+
+                <li>
+
+                    <svg viewBox="0 0 24 24"
+                         xmlns="http://www.w3.org/2000/svg">
+
+                        <circle
+                            cx="12"
+                            cy="12"
+                            r="9"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.7"/>
+
+                        <path
+                            d="M10 8l4 4-4 4"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.7"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"/>
+
+                    </svg>
+
+                    <span>Unlock scholarship opportunities</span>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</div>
+</section>
+
+
+    <!--section6-->
+    <section class="sec6">
+        <div class="sec6_margin">
+            <div class="sec6_text">
+                <h2 class="sec6_head">Start Your <br>
+                    Scholarship Journey Today</h2>
+
+                <p class="sec6_para">Join IQ Book and become part of a merit-based learning community in Pakistan where
+                    your
+                    performance defines your success.</p>
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            id="Content-Paper-Edit--Streamline-Freehand" height="24" width="24">
+                            <desc>
+                                Content Paper Edit Streamline Icon: https://streamlinehq.com
+                            </desc>
+                            <path fill="white" fill-rule="evenodd"
+                                d="M21.1699 6.24824c-0.537 0.11638 -1.0148 0.42075 -1.3472 0.85825 -0.0302 0.02556 -0.055 0.0568 -0.0731 0.09195 -0.018 0.03514 -0.029 0.0735 -0.0323 0.11289 -0.0065 0.07954 0.0188 0.15842 0.0704 0.2193 0.0516 0.06088 0.1253 0.09876 0.2049 0.10531 0.0795 0.00655 0.1584 -0.01877 0.2193 -0.07038 0.5189 -0.35927 0.5888 -0.41915 1.0678 -0.42913 0.479 -0.00998 1.6167 0.74848 1.6367 1.2774 0.0494 0.55833 -0.1147 1.11465 -0.4591 1.55683 -0.6686 -0.51894 -2.3153 -1.68656 -2.7444 -1.99593 -0.0636 -0.06338 -0.1498 -0.09897 -0.2395 -0.09897 -0.0898 0 -0.176 0.03559 -0.2395 0.09897 -0.3893 0.4391 0.3792 0.66864 2.6545 2.61467 -0.2993 0.509 -0.4191 0.5888 -3.7423 4.4609 -0.232 -0.4512 -0.552 -0.8514 -0.9411 -1.1771 -0.389 -0.3256 -0.8393 -0.5701 -1.3243 -0.719 2.8542 -3.99189 3.3631 -4.10167 2.9939 -4.42102 -0.3693 -0.31935 -0.499 0.1497 -0.8483 0.54889 -2.475 2.88413 -3.8422 4.46093 -3.8721 4.98983 -0.1098 2.1856 -0.2096 3.2434 0.1197 3.5528 0.6487 0.6187 2.994 -0.2695 3.5329 -0.6188 2.1197 -2.365 4.0705 -4.876 5.8381 -7.51467 0.2441 -0.38509 0.3674 -0.83439 0.3541 -1.29013 -0.0133 -0.45574 -0.1626 -0.89709 -0.4287 -1.2673 -0.2661 -0.37021 -0.6369 -0.65236 -1.0647 -0.81017 -0.4277 -0.15781 -0.8929 -0.18406 -1.3357 -0.07539Zm-4.0617 9.97966c-0.6235 0.3265 -1.2988 0.5426 -1.996 0.6387 -0.1397 -3.0637 -0.0798 -2.4949 0.3294 -3.0937 0.6613 0.6938 1.3939 1.3159 2.1855 1.8562 -0.2794 0.3394 -0.469 0.5589 -0.5189 0.5988Z"
+                                clip-rule="evenodd" stroke-width="1"></path>
+                            <path fill="white" fill-rule="evenodd"
+                                d="M17.1381 19.3416c-0.2495 1.0778 -0.5488 1.4371 -1.8662 1.6467 -3.6198 0.3215 -7.26393 0.2479 -10.86784 -0.2196 -0.67862 -0.1197 -1.31732 -0.1497 -1.99594 -0.2495s-0.54889 -0.1297 -1.26742 -0.2894c-0.12974 -0.6087 0.60876 -2.1057 0.76843 -2.8143 0 0 2.17558 -10.34889 2.33525 -11.28698 0.2101 -1.164 0.34014 -2.34104 0.38921 -3.52283 1.2275 0 3.11366 0.23951 4.25135 0.36925 3.56276 0.39918 7.41486 -0.61875 9.83996 0.76843 0.1465 0.51875 0.1938 1.06045 0.1397 1.59675 0 0.07941 0.0316 0.15556 0.0877 0.2117 0.0562 0.05615 0.1323 0.08769 0.2117 0.08769s0.1556 -0.03154 0.2117 -0.08769c0.0562 -0.05614 0.0877 -0.13229 0.0877 -0.2117 0.0798 -0.66864 0.1896 -1.77638 -0.2794 -2.26539 -1.0778 -1.09776 -4.2115 -1.26742 -5.8481 -1.26742 -1.4571 0.05988 -2.9141 0.23951 -4.35117 0.15968 -0.6387 0 -3.99187 -0.13972 -4.63057 -0.0998 -0.46905 0 -0.28941 0.66864 -0.30937 0.75846 -0.33931 2.9939 -0.10978 1.50693 -3.223443 14.49055 -0.219553 0.958 -1.137684 2.4849 -0.708558 3.6525 0.229533 0.5988 0.918131 0.6188 1.247461 0.7186 0.94184 0.1963 1.89513 0.3329 2.85419 0.4091 2.98147 0.3583 5.99306 0.3918 8.98176 0.0998 1.1476 -0.0798 2.7344 -0.0898 3.7224 -0.7684 0.5014 -0.4359 0.8188 -1.0458 0.8882 -1.7065 0.0118 -0.0439 0.0148 -0.0897 0.0089 -0.1348 -0.0059 -0.0451 -0.0206 -0.0886 -0.0433 -0.1279 -0.0227 -0.0394 -0.053 -0.074 -0.089 -0.1017 -0.0361 -0.0277 -0.0772 -0.048 -0.1211 -0.0598 -0.0439 -0.0118 -0.0897 -0.0148 -0.1348 -0.0089 -0.0451 0.0059 -0.0885 0.0206 -0.1279 0.0433 -0.0394 0.0227 -0.0739 0.053 -0.1016 0.089 -0.0277 0.0361 -0.0481 0.0772 -0.0599 0.1211Z"
+                                clip-rule="evenodd" stroke-width="1"></path>
+                            <path fill="white" fill-rule="evenodd"
+                                d="M15.6013 6.79719c-1.1078 0 -2.6945 -0.14969 -4.2015 -0.20957 -2.67453 -0.10978 -1.92605 0.20957 -4.30122 -0.07984 -0.21955 0 -1.06783 -0.31935 -1.2275 0.15968 -0.15968 0.47902 0.52892 0.29939 1.09776 0.54888 0.56885 0.24949 1.477 0.57882 5.11956 0.50896 1.3074 0 2.6047 -0.13971 3.5528 -0.23951 0.0452 -0.00262 0.0895 -0.01412 0.1302 -0.03385 0.0408 -0.01972 0.0773 -0.04728 0.1074 -0.08111 0.0301 -0.03382 0.0533 -0.07325 0.0682 -0.11602 0.0148 -0.04278 0.0212 -0.08806 0.0185 -0.13328 -0.0026 -0.04521 -0.0141 -0.08947 -0.0338 -0.13024 -0.0197 -0.04077 -0.0473 -0.07725 -0.0811 -0.10737 -0.0338 -0.03012 -0.0733 -0.05328 -0.116 -0.06816 -0.0428 -0.01488 -0.0881 -0.02119 -0.1333 -0.01857Z"
+                                clip-rule="evenodd" stroke-width="1"></path>
+                            <path fill="white" fill-rule="evenodd"
+                                d="M12.9766 10.9687c-5.6485 -0.3194 -6.56663 -0.4092 -7.44484 -0.8682 -0.06749 -0.0424 -0.14904 -0.0562 -0.22671 -0.0384 -0.07767 0.0178 -0.1451 0.0657 -0.18745 0.1332 -0.04235 0.0675 -0.05615 0.149 -0.03837 0.2267 0.01778 0.0776 0.06569 0.1451 0.13318 0.1874 0.91144 0.6407 1.96755 1.0453 3.07374 1.1776 1.56387 0.1259 3.13685 0.079 4.69045 -0.1397 0.09 0 0.1763 -0.0357 0.2399 -0.0994 0.0637 -0.0636 0.0994 -0.1499 0.0994 -0.2399s-0.0357 -0.1763 -0.0994 -0.2399c-0.0636 -0.0637 -0.1499 -0.0994 -0.2399 -0.0994Z"
+                                clip-rule="evenodd" stroke-width="1"></path>
+                            <path fill="white" fill-rule="evenodd"
+                                d="M9.813 15.6491c-2.21549 -0.1197 -4.31123 -0.2594 -5.43893 -1.1676 -0.30937 -0.2495 -0.86824 0.2595 -0.20958 0.8184 0.48448 0.3418 1.0069 0.6265 1.55684 0.8482 2.28534 0.8084 4.24136 0.5589 6.76627 0.2795 0.0899 0 0.1762 -0.0358 0.2399 -0.0994 0.0636 -0.0637 0.0994 -0.15 0.0994 -0.24 0 -0.0899 -0.0358 -0.1762 -0.0994 -0.2399 -0.0637 -0.0636 -0.15 -0.0994 -0.2399 -0.0994 -0.8882 0.03 -1.7764 -0.0499 -2.6746 -0.0998Z"
+                                clip-rule="evenodd" stroke-width="1"></path>
+                        </svg>
+                    </div>
+
+                    <div class="feature-text">
+                        <h3>DAILY</h3>
+                        <p>Practice Karo</p>
+                    </div>
+                </div>
+
+
+                <div class="divider"></div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            id="Swords--Streamline-Outlined-Material">
+                            <desc>
+                                Swords Streamline Icon: https://streamlinehq.com
+                            </desc>
+                            <path fill="white"
+                                d="m19.225 21.7999 -3.1 -3.1 -2.2 2.2 -1.075 -1.075c-0.28335 -0.28335 -0.425 -0.63335 -0.425 -1.05 0 -0.41665 0.14165 -0.76665 0.425 -1.05l4.975 -4.975c0.28335 -0.28335 0.63335 -0.425 1.05 -0.425 0.41665 0 0.76665 0.14165 1.05 0.425l1.075 1.075 -2.2 2.2 3.075 3.1c0.15 0.15 0.225 0.325 0.225 0.525s-0.075 0.375 -0.225 0.525l-1.6 1.625c-0.15 0.15 -0.325 0.225 -0.525 0.225s-0.375 -0.075 -0.525 -0.225Zm2.775 -15.9 -11.325 11.325 0.475 0.5c0.28335 0.28335 0.425 0.63335 0.425 1.05 0 0.41665 -0.14165 0.76665 -0.425 1.05l-1.075 1.075 -2.2 -2.2 -3.1 3.1c-0.15 0.15 -0.325 0.225 -0.525 0.225s-0.375 -0.075 -0.525 -0.225l-1.625 -1.625c-0.15 -0.15 -0.225 -0.325 -0.225 -0.525s0.075 -0.375 0.225 -0.525l3.1 -3.1 -2.2 -2.2 1.075 -1.075c0.283335 -0.28335 0.633335 -0.425 1.05 -0.425 0.41665 0 0.76665 0.14165 1.05 0.425l0.5 0.475L18 1.8999h4v4Zm-15.05 4.95 -4.95 -4.95v-4h4l4.95 4.95 -1.05 1.05 -4.525 -4.5H3.5v1.875l4.5 4.525 -1.05 1.05Zm2.625 5.3L20.5 5.2749v-1.875h-1.875l-10.925 10.875 1.875 1.875Z"
+                                stroke-width="0.5"></path>
+                        </svg>
+                    </div>
+
+                    <div class="feature-text">
+                        <h3>QUIZ</h3>
+                        <p>Battles Jeeto</p>
+                    </div>
+                </div>
+
+
+                <div class="divider"></div>
+
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                            <path d="M7 4H17V9C17 12.3 14.8 15 12 15C9.2 15 7 12.3 7 9V4Z" stroke="white"
+                                stroke-width="1.8" stroke-linejoin="round" />
+
+                            <path d="M7 6H4V8C4 10.2 5.8 12 8 12" stroke="white" stroke-width="1.8"
+                                stroke-linecap="round" />
+
+                            <path d="M17 6H20V8C20 10.2 18.2 12 16 12" stroke="white" stroke-width="1.8"
+                                stroke-linecap="round" />
+
+                            <path d="M12 15V19" stroke="white" stroke-width="1.8" stroke-linecap="round" />
+
+                            <path d="M8 21H16" stroke="white" stroke-width="1.8" stroke-linecap="round" />
+                        </svg>
+                    </div>
+
+                    <div class="feature-text">
+                        <h3>MERIT</h3>
+                        <p>Par Quality Karo</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="sec_btns">
+                <button class="join">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="25"
+                        width="25" style="position: relative; bottom: 2px;">
+                        <path
+                            d="M7.25361 18.4944L7.97834 18.917C9.18909 19.623 10.5651 20 12.001 20C16.4193 20 20.001 16.4183 20.001 12C20.001 7.58172 16.4193 4 12.001 4C7.5827 4 4.00098 7.58172 4.00098 12C4.00098 13.4363 4.37821 14.8128 5.08466 16.0238L5.50704 16.7478L4.85355 19.1494L7.25361 18.4944ZM2.00516 22L3.35712 17.0315C2.49494 15.5536 2.00098 13.8345 2.00098 12C2.00098 6.47715 6.47813 2 12.001 2C17.5238 2 22.001 6.47715 22.001 12C22.001 17.5228 17.5238 22 12.001 22C10.1671 22 8.44851 21.5060 6.97086 20.6047L2.00516 22ZM8.39232 7.30833C8.5262 7.29892 8.66053 7.29748 8.79459 7.30402C8.84875 7.30758 8.90265 7.31384 8.95659 7.32007C9.11585 7.33846 9.29098 7.43545 9.34986 7.56894C9.60818 8.24536 9.93760 8.92565 10.2182 9.60963C10.2801 9.76062 10.2428 9.95633 10.125 10.1457C10.0652 10.2428 9.97128 10.379 9.86248 10.5183C9.74939 10.663 9.50599 10.9291 9.50599 10.9291C9.50599 10.9291 9.40738 11.0473 9.44455 11.1944C9.45903 11.25 9.50521 11.331 9.54708 11.3991C9.57027 11.4368 9.5918 11.4705 9.60577 11.4938C9.86169 11.9211 10.2057 12.3543 10.6259 12.7616C10.7463 12.8783 10.8631 12.9974 10.9887 13.108C11.457 13.5209 11.9868 13.8583 12.559 14.1082L12.5601 14.1105C12.6086 14.1469 12.692 14.1668 12.8157 14.2193C12.8781 14.2457 12.9419 14.2685 13.0074 14.2858C13.0311 14.292 13.0554 14.2955 13.0798 14.2972C13.2415 14.3069 13.335 14.2032 13.3749 14.1555C14.0984 13.279 14.1606 13.2218 14.1696 13.2222V13.2238C14.2607 13.1236 14.4142 13.0888 14.5476 13.097C14.6085 13.1007 14.6691 13.1124 14.7245 13.1377C15.2563 13.3803 16.1258 13.7587 16.1258 13.7587L16.7073 14.0201C16.8047 14.0671 16.8936 14.1778 16.8979 14.2854C16.9005 14.3523 16.9077 14.4603 16.8838 14.6579C16.8525 14.9166 16.7738 15.2281 16.6956 15.3913C16.6006 15.5058 16.5694 15.6074 16.4866 15.6934C16.3743 15.81 16.2909 15.8808 16.1559 15.9814C16.0737 16.0426 16.0311 16.0714 16.0311 16.0714C15.8922 16.159 15.8139 16.2028 15.6084 16.2909C15.391 16.428 15.1066 16.5068 14.8153 16.5218C14.6296 16.5313 14.4444 16.5447 14.2589 16.5347C14.2507 16.5342 13.6907 16.4482 13.6907 16.4482C12.2688 16.0742 10.9538 15.3736 9.85034 14.402C9.62473 14.2034 9.4155 13.9885 9.20194 13.7759C8.31288 12.8908 7.63982 11.9360 7.23169 11.0336C7.03043 10.5884 6.90299 10.1116 6.90098 9.62098C6.89729 9.01405 7.09599 8.4232 7.46569 7.94186C7.53857 7.84697 7.60774 7.74855 7.72709 7.63586C7.85348 7.51651 7.93392 7.45244 8.02057 7.40811C8.13607 7.34902 8.26293 7.31742 8.39232 7.30833Z">
+                        </path>
+                    </svg> &nbsp;&nbsp;
+                    Join now
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+    <!--section6-->
+
+
+      <!--footer-->
+    <footer class="footer">
+        <div class="footer_container">
+
+          
+            <div class="footer_box">
+                <h2 class="logo">IQ <span>BOOK</span></h2>
+
+                <p>
+                    IQ Book is a gamified learning platform for students,
+                    designed to improve academic performance through practice
+                    and competitions.
+                </p>
+
+                <div class="social_icons">
+
+                  
+                    <a href="https://www.facebook.com/iqbookapp" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M14 8H16V5H14C11.8 5 10 6.8 10 9V11H8V14H10V19H13V14H16L17 11H13V9C13 8.4 13.4 8 14 8Z"
+                                stroke="currentColor" stroke-width="1.8" />
+                        </svg>
+                    </a>
+
+                  
+                    <a href="https://www.instagram.com/iqbookapp/" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <rect x="4" y="4" width="16" height="16" rx="5" stroke="currentColor" stroke-width="1.8" />
+                            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8" />
+                            <circle cx="17" cy="7" r="1" />
+                        </svg>
+                    </a>
+
+                 
+                    <a href="https://x.com/iqbookofficial" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M10.4883 14.651L15.25 21H22.25L14.3917 10.5223L20.9308 3H18.2808L13.1643 8.88578L8.75 3H1.75L9.26086 13.0145L2.31915 21H4.96917L10.4883 14.651ZM16.25 19L5.75 5H7.75L18.25 19H16.25Z">
+                            </path>
+                        </svg>
+                    </a>
+
+                  
+                    <a href="https://www.youtube.com/@iqbookapp" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <rect x="3" y="6" width="18" height="12" rx="4" stroke="currentColor" stroke-width="1.8" />
+                            <path d="M10 9L15 12L10 15V9Z" fill="currentColor" />
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+
+       
+            <div class="footer_box">
+                <h3>Quick Links</h3>
+
+                <a href="index.html"> >> &nbsp;Home</a>
+                <a href="about.html"> >> &nbsp; About Us</a>
+                <a href="work.html"> >> &nbsp; Scholarships</a>
+                <a href="https://www.whatsapp.com/channel/0029VbBXSyjDZ4LcOxU7DS3Z" target="_blank"> >> &nbsp; Contact</a>
+            </div>
+
+          
+            <div class="footer_box">
+                <h3>Information</h3>
+
+                <a href="#"> >> &nbsp;Blogs</a>
+                <a href="#"> >> &nbsp;Privacy Policy</a>
+                <a href="#"> >> &nbsp;Terms & Conditions</a>
+            </div>
+
+        
+            <div class="footer_box">
+                <h3>Contact Us</h3>
+
+                <div class="contact_item">
+
+                  
+                    <div class="contact_icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8" />
+                            <path d="M4 7L12 13L20 7" stroke="currentColor" stroke-width="1.8" />
+                        </svg>
+                    </div>
+
+                    <div>
+                        <span>Email</span>
+                        <p>support@iqbook.com</p>
+                    </div>
+                </div>
+
+                <div class="contact_item">
+
+                   
+                    <div class="contact_icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 21C12 21 18 15 18 10C18 6.6 15.3 4 12 4C8.7 4 6 6.6 6 10C6 15 12 21 12 21Z"
+                                stroke="currentColor" stroke-width="1.8" />
+                            <circle cx="12" cy="10" r="2" stroke="currentColor" stroke-width="1.8" />
+                        </svg>
+                    </div>
+
+                    <div>
+                        <span>Location</span>
+                        <p>Lahore, Pakistan</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 All Rights Reserved.
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
