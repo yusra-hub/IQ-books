@@ -7,6 +7,7 @@ window.addEventListener("load", function () {
     }, 2000);
 
 });
+
 const fallingItems = document.getElementById("fallingItems");
 
 const objects = [
@@ -56,3 +57,20 @@ function createFallingItem() {
 // Create objects continuously
 setInterval(createFallingItem, 600);
 
+gsap.utils.toArray(".reveal-section").forEach((section) => {
+
+    gsap.from(section.children, {
+        y: 60,
+        opacity: 0,
+        duration: 1,
+        stagger: 0.15,
+        ease: "power3.out",
+
+        scrollTrigger: {
+            trigger: section,
+            start: "top 75%",
+            toggleActions: "play none none reverse"
+        }
+    });
+
+});

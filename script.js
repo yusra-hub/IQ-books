@@ -39,3 +39,37 @@ function setsates(accuracy, winRate, consistency) {
     
 }
 setsates(75, 62, 85);
+
+gsap.registerPlugin(ScrollTrigger);
+
+ScrollTrigger.create({
+
+    trigger: ".stats-section",
+
+    start: "top 75%",
+
+    once: true,
+
+    onEnter: () => {
+        setsates(75, 62, 85);
+    }
+
+});
+
+gsap.utils.toArray(".reveal-section").forEach((section) => {
+
+    gsap.from(section.children, {
+        y: 60,
+        opacity: 0,
+        duration: 1,
+        stagger: 0.15,
+        ease: "power3.out",
+
+        scrollTrigger: {
+            trigger: section,
+            start: "top 75%",
+            toggleActions: "play none none reverse"
+        }
+    });
+
+});
